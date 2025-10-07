@@ -46,7 +46,6 @@ MAIL_ADMIN_ADDRESS="Your_Email@example.com"
 <h3>Migrate &amp; Prepare</h3>
 <pre><code>php artisan migrate
 php artisan storage:link
-# optional (if you have front-end assets)
 npm install
 npm run dev
 </code></pre>
