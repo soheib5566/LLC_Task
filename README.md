@@ -1,4 +1,4 @@
-<img width="1628" height="925" alt="Screenshot 2025-10-07 133940" src="https://github.com/user-attachments/assets/ee4e8918-d7cc-4f1f-a7cc-9170ce1e33bf" /><h1>Application Submission</h1>
+<h1>Application Submission</h1>
 
 <h2>Tech Stack</h2>
 <ul>
