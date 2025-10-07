@@ -10,7 +10,7 @@
 
         <div id="alert-container"></div>
 
-        <form id="application-form" enctype="multipart/form-data">
+        <form id="application-form" method="POST" action="{{ route('application.store') }}" enctype="multipart/form-data">
             @csrf
 
             <div class="form-row">
@@ -19,7 +19,7 @@
                     <input 
                         type="email" 
                         id="contact_email" 
-                        name="contact_email" 
+                        name="email" 
                         required
                     >
                     <span class="error-message" id="error-contact_email"></span>
@@ -30,7 +30,7 @@
                     <input 
                         type="tel" 
                         id="contact_phone" 
-                        name="contact_phone" 
+                        name="phone" 
                         placeholder="+1234567890"
                         required
                     >
