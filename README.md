@@ -1,4 +1,4 @@
-<h1>Application Submission</h1>
+<img width="1628" height="925" alt="Screenshot 2025-10-07 133940" src="https://github.com/user-attachments/assets/ee4e8918-d7cc-4f1f-a7cc-9170ce1e33bf" /><h1>Application Submission</h1>
 
 <h2>Tech Stack</h2>
 <ul>
@@ -10,7 +10,7 @@
   <li>Frontend: Blade + vanilla JS (AJAX)</li>
 </ul>
 
-<h2>Installation</h2>
+<h2>⚙️ Installation</h2>
 <pre><code>
 cp .env.example .env
 composer install
@@ -52,5 +52,14 @@ npm run dev
 </code></pre>
 
 <h2>Run</h2>
-<pre><code># app
+<pre><code>
 php artisan serve
+
+# queue worker (required for emails)
+php artisan queue:work
+</code></pre>
+<p><em>Emails are queued — without the worker, no email will be sent.</em></p>
+
+<h2>preview images</h2>
+<img width="1628" height="925" alt="Screenshot 2025-10-07 133940" src="https://github.com/user-attachments/assets/233c9ece-7d5a-4068-8396-eacd565ad2cf" />
+<img width="787" height="867" alt="Screenshot 2025-10-07 134022" src="https://github.com/user-attachments/assets/76eab6c5-d2e0-4042-a741-60e7c477d4aa" />
